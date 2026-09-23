@@ -4,15 +4,7 @@ public class Project0A {
     public static void main(String[] args) {
         
         Scanner kboard = new Scanner(System.in);
-        System.out.println("Enter a value: ");
-        int value = kboard.nextInt();
-        if (value == 1) {
-            System.out.println("Enter the base: ");
-            double b = kboard.nextDouble();
-            System.out.println("Enter the height: ");
-            double h = kboard.nextDouble();
-            System.out.println(problemOne(b, h));
-        } else
+        
             
 
 
