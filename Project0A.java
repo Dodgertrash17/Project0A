@@ -7,14 +7,18 @@ public class Project0A {
         System.out.println("Enter a value: ");
         int value = kboard.nextInt();
         if (value == 1) {
-            
+            System.out.println("Enter the base: ");
+            double b = kboard.nextDouble();
+            System.out.println("Enter the height: ");
+            double h = kboard.nextDouble();
+            System.out.println(problemOne(b, h));
         }
 
 
         kboard.close();
     }
 
-    public double problemOne(double b, double h) {
+    public static double problemOne(double b, double h) {
         return b + h + Math.sqrt(b * b + h * h);
     }
 
@@ -36,10 +40,34 @@ public class Project0A {
 
     public String problemFive(String[] input) {
         String longestText = "";
-        
+        for (int i = 0; i < input.length; i++) {
+            if (input[i].length() > longestText.length()) {
+                longestText = input[i];
+            }
+        }
         return longestText;
     }
 
-    
+    public boolean problemSix(String license) {
+        
+        
+
+        return false;
+    }
+
+    public int problemSeven(String s, char c) {
+        
+        return 0;
+    }
+
+    public  boolean problemEight(String s) {
+        
+        for (int i = 0; i < s.length(); i++) {
+
+        }
+        
+        return false;
+    }
+
 
 }
