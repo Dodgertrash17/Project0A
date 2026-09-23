@@ -12,7 +12,8 @@ public class Project0A {
             System.out.println("Enter the height: ");
             double h = kboard.nextDouble();
             System.out.println(problemOne(b, h));
-        }
+        } else
+            
 
 
         kboard.close();
